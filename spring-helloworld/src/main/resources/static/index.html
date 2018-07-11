@@ -1,0 +1,32 @@
+<!--
+  --Created by erdong on 2018/6/23 19:29
+  --One is Gauss, and another is Évariste Galois.
+-->
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>欢迎访问-static</h1>
+        <button type="button" onclick="show()">点击试试</button>
+    </div>
+
+    <script>
+        // 回调
+        function go(arg) {
+            alert(arg);
+        }
+
+        function show() {
+            var script = document.createElement("script");
+            script.src = "http://localhost:8081/api/test?callback=go";
+            document.body.appendChild(script);
+            document.body.removeChild(script)
+        }
+    </script>
+</body>
+</html>

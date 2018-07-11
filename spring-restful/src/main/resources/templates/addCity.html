@@ -1,0 +1,56 @@
+<!--
+  --This line id for God!
+  --Created by erdong on 2018/6/30 17:03
+  --One is Gauss, and another is Évariste Galois.
+-->
+
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>添加城市</title>
+</head>
+<body>
+    <div style="text-align: center">
+        <form action="#" method="post">
+            <label for="city_id">城市编号: </label>
+            <input type="number" id="city_id" name="id"><br/>
+            <label for="pro_id">省份编号: </label>
+            <input type="number" id="pro_id" name="proId"><br/>
+            <label for="city_name">城市名称: </label>
+            <input type="text" id="city_name" name="cityName"><br/>
+            <label for="desc_id">城市描述: </label>
+            <input type="text" id="desc_id" name="description"><br/>
+            <!--<input type="submit" value="提交">-->
+        </form>
+        <button onclick="subm()">按这里试试</button>
+    </div>
+    <script th:src="@{/js/jquery-3.3.1.min.js}"></script>
+    <script>
+        function getData() {
+            return {
+                "id": $("#city_id").val(),
+                "provinceId": $("#pro_id").val(),
+                "unuseful": "艹腻骂",
+                "cityName": $("#city_name").val(),
+                "description": $("#desc_id").val()
+            };
+        }
+
+        function subm() {
+            // alert(JSON.stringify(getData()));
+            console.log(JSON.stringify(getData()));
+            $.ajax({
+                url: "/api/city",
+                type: "POST",
+                data: JSON.stringify(getData()),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function () {
+                    //
+                }
+            })
+        }
+    </script>
+</body>
+</html>

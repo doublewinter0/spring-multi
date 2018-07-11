@@ -1,0 +1,15 @@
+## 端口配置
+server:
+  port: 8087
+  
+## Dubbo 服务生产者配置
+spring:
+  dubbo:
+    application:
+      name: producer
+    protocol:
+      name: dubbo
+      port: 20880
+    registry:
+      address: zookeeper://192.168.66.1:2181
+    scan: ren.erdong.service

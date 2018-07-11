@@ -1,0 +1,19 @@
+## 端口配置
+server:
+  port: 8084
+
+## master 数据源配置
+master:
+  datasource:
+    url: jdbc:mysql://192.168.56.1:3306/springbootdb_master?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 1413
+    driverClassName: com.mysql.jdbc.Driver
+
+## cluster 数据源配置
+cluster:
+  datasource:
+    url: jdbc:mysql://192.168.56.1:3306/springbootdb?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 1413
+    driverClassName: com.mysql.jdbc.Driver

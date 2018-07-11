@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="8">
+      <module name="spring-error-over-json_main" target="1.10" />
+      <module name="spring-error-over-json_test" target="1.10" />
+      <module name="spring-error_main" target="1.10" />
+      <module name="spring-error_test" target="1.10" />
+      <module name="spring-mybatis_main" target="1.10" />
+      <module name="spring-mybatis_test" target="1.10" />
+      <module name="spring-validation-over-json_main" target="1.10" />
+      <module name="spring-validation-over-json_test" target="1.10" />
+      <module name="spring_main" target="1.10" />
+      <module name="spring_test" target="1.10" />
+      <module name="springboot-dubbo-server_main" target="1.8" />
+      <module name="springboot-dubbo-server_test" target="1.8" />
+      <module name="springboot-validation-over-json_main" target="1.10" />
+      <module name="springboot-validation-over-json_test" target="1.10" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
