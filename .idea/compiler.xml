@@ -2,12 +2,40 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="8">
+      <module name="lib_main" target="1.10" />
+      <module name="lib_test" target="1.10" />
+      <module name="spring-boot-dubbo_main" target="1.10" />
+      <module name="spring-boot-dubbo_test" target="1.10" />
       <module name="spring-error-over-json_main" target="1.10" />
       <module name="spring-error-over-json_test" target="1.10" />
       <module name="spring-error_main" target="1.10" />
       <module name="spring-error_test" target="1.10" />
+      <module name="spring-multi-spring-dubbo-client_main" target="1.10" />
+      <module name="spring-multi-spring-dubbo-client_test" target="1.10" />
+      <module name="spring-multi-spring-dubbo-server_main" target="1.10" />
+      <module name="spring-multi-spring-dubbo-server_test" target="1.10" />
+      <module name="spring-multi-spring-elastic_main" target="1.10" />
+      <module name="spring-multi-spring-elastic_test" target="1.10" />
+      <module name="spring-multi-spring-error-json_main" target="1.10" />
+      <module name="spring-multi-spring-error-json_test" target="1.10" />
+      <module name="spring-multi-spring-helloworld_main" target="1.10" />
+      <module name="spring-multi-spring-helloworld_test" target="1.10" />
+      <module name="spring-multi-spring-mybatis-anno_main" target="1.10" />
+      <module name="spring-multi-spring-mybatis-anno_test" target="1.10" />
+      <module name="spring-multi-spring-mybatis-multisrc_main" target="1.10" />
+      <module name="spring-multi-spring-mybatis-multisrc_test" target="1.10" />
+      <module name="spring-multi-spring-mybatis-redis_main" target="1.10" />
+      <module name="spring-multi-spring-mybatis-redis_test" target="1.10" />
+      <module name="spring-multi-spring-mybatis-xml_main" target="1.10" />
+      <module name="spring-multi-spring-mybatis-xml_test" target="1.10" />
+      <module name="spring-multi-spring-restful_main" target="1.10" />
+      <module name="spring-multi-spring-restful_test" target="1.10" />
+      <module name="spring-multi-spring-solr_main" target="1.10" />
+      <module name="spring-multi-spring-solr_test" target="1.10" />
       <module name="spring-mybatis_main" target="1.10" />
       <module name="spring-mybatis_test" target="1.10" />
+      <module name="spring-solr_main" target="1.10" />
+      <module name="spring-solr_test" target="1.10" />
       <module name="spring-validation-over-json_main" target="1.10" />
       <module name="spring-validation-over-json_test" target="1.10" />
       <module name="spring_main" target="1.10" />

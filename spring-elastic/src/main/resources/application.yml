@@ -1,0 +1,11 @@
+## 配置端口号
+server:
+  port: 8089
+
+## ES
+spring:
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      cluster-nodes: 192.168.66.1:9300

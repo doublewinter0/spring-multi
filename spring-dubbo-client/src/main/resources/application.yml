@@ -10,3 +10,5 @@ spring:
     registry:
       address: zookeeper://192.168.66.1:2181
     scan: ren.erdong.service
+    module:
+      default: false

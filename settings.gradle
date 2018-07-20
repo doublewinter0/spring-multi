@@ -8,3 +8,5 @@ include 'spring-helloworld'
 include 'spring-mybatis-redis'
 include 'spring-dubbo-server'
 include 'spring-dubbo-client'
+include 'spring-elastic'
+

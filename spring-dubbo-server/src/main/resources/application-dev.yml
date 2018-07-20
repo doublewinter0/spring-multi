@@ -4,8 +4,6 @@ server:
   
 ## Dubbo 服务生产者配置
 spring:
-  profiles:
-    active: dev
   dubbo:
     application:
       name: producer
